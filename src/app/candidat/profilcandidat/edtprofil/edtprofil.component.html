@@ -1,0 +1,85 @@
+<app-componentscandidat></app-componentscandidat>
+<p class="content"></p> <!-- this is important for the width of the page don't delete it -->
+
+
+<div class="welcome content">
+    <div class="welcome-label">
+        <h1 class="user">Fakhri</h1>
+        <p class="desc">This is your profile page, you can view and modify your personal information</p>
+        
+    </div>
+    <!-- Other content of the dashboard goes here -->
+</div>
+
+<div class="job-offer-box content"  >
+    <div class="job-offer-content">
+        <h3 class="mb-5 title">Edit Profile</h3>
+
+        <div class="row mb-4">
+            <div class="col">
+                <label class="form-label" for="firstName">First Name</label>
+                <input type="text" id="firstName" class="form-control form-control-lg" value="fakhri"/>
+            </div>
+            <div class="col">
+                <label class="form-label" for="lastName">Last Name</label>
+                <input type="text" id="lastName" class="form-control form-control-lg" value="hammami" />
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" id="email" class="form-control form-control-lg" value="fakhri.hammami@gmail.com"/>
+            </div>
+            <div class="col password-container">
+                <label class="form-label" for="password">Password</label>
+                <input type="password" id="password" class="form-control form-control-lg" value="Fakhri#123456"/>
+                <i id="eyeIcon" class="toggle-password fas fa-eye-slash"></i>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <label class="form-label" for="gender">Gender</label>
+                <select id="gender" class="form-control form-control-lg" >  
+                    <option value="" class="form-control form-control-lg" disabled selected>Select Gender</option> <!-- Empty option -->
+                    <option value="male" class="form-control form-control-lg" selected>Male </option>
+                    <option value="female" class="form-control form-control-lg">Female</option>
+                </select>
+            </div>
+            <div class="col">
+                <label class="form-label" for="telNumber">Phone Number</label>
+                <input type="tel" id="telNumber" class="form-control form-control-lg" value="50496951"/>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <label class="form-label" for="birthdate">Birthdate</label>
+                <input type="date" id="birthdate" class="form-control form-control-lg" value="1999-12-05"/>
+            </div>
+            <div class="col">
+                <label class="form-label" for="telNumber">Pays</label>
+                <input type="tel" id="telNumber" class="form-control form-control-lg" value="tunisia"/>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <label class="form-label" for="telNumber">Governorate</label>
+                <input type="tel" id="telNumber" class="form-control form-control-lg" value="tunis"/>
+            </div>
+            <div class="col">
+                <label class="form-label" for="telNumber">ZIP code</label>
+                <input type="tel" id="telNumber" class="form-control form-control-lg" value="2051"/>
+            </div>
+        </div>
+
+
+        
+
+        <button class="btn btn-success btn-lg btn-block btn-save" type="submit">Save</button>
+        <button class="btn btn-danger btn-lg btn-block btn-cancel" type="submit" routerLink="/profilcandidat">Cancel</button>
+    
+    </div>
+</div>

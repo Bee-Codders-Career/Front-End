@@ -1,0 +1,88 @@
+<app-componentsagent></app-componentsagent>
+<p class="content"></p> <!-- this is important for the width of the page don't delete it -->
+
+<div class="welcome content">
+    
+    <div class="welcome-label">
+        <h1 class="user">Raouf</h1>
+        <p class="desc">You can view, add, modify and delete offers</p>
+        
+    </div>
+    <button class="btn btn-primary add" routerLink="/addoffer"> + Add Offer</button>
+    <!-- Other content of the dashboard goes here -->
+</div>
+
+
+<div class="job-offer-box content"  >
+    <div class="job-offer-content">
+      <table>
+        <thead>
+            <tr>
+                <th>Job title</th>
+                <th>Diploma</th>
+                <th>Creation date</th>
+                <th>Status</th>
+                <th>Max age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Full-Stack Developer</td>
+                <td>development engineering</td>
+                <td>08/14/2023</td>
+                <td ><div class="colored-box-green">Enabled</div></td>
+                <td>27</td>
+            </tr>
+        </tbody>
+      </table>
+      <p class="option-title">Job mission : <span> Create and maintain high-quality web applications with a focus on both front-end and back-end development. </span></p>
+      <p class="option-title">Experience level : <span>3 to 5 years</span></p>
+      <p class="option-title">Skills : <span>Proficiency in front-end technologies such as HTML, CSS, and JavaScript.Experience with back-end technologies (Node.js, Python,Java).
+        Familiarity with database systems (MySQL, MongoDB).Knowledge of version control systems (Git).Problem-solving abilities and an analytical mindset.</span></p>
+      <p class="option-title">requirement : <span>Excellent communication and teamwork skills.Ability to work independently and meet project deadlines.
+        Portfolio of web applications and projects.</span></p>
+    </div>
+        <div class="apply-container">
+            <span class="apply-text">Added by : </span><span class="manager-name">raouf akkez</span>
+            <input class="btn btn-primary apply-button" routerLink="/editoffer" type="submit" value="Edit">
+            <input class="btn btn-danger another-button" type="submit" value="Delete">
+        </div>
+</div>
+
+<div class="job-offer-box content"  >
+    <div class="job-offer-content">
+      <table>
+        <thead>
+            <tr>
+                <th>Job title</th>
+                <th>Diploma</th>
+                <th>Creation date</th>
+                <th>Status</th>
+                <th>Max age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>UX/UI Designer</td>
+                <td>Software engineering</td>
+                <td>08/10/2023</td>
+                <td ><div class="colored-box-red">disabled</div></td>
+                <td>27</td>
+            </tr>
+        </tbody>
+      </table>
+      <p class="option-title">Job mission : <span> Develop and maintain high-performance mobile applications for Android and/or iOS platforms.
+        Collaborate with UI/UX designers to implement user-friendly interfaces and experiences. </span></p>
+      <p class="option-title">Experience level : <span>3 to 5 years</span></p>
+      <p class="option-title">Skills : <span>Proficiency in programming languages such as Java/Kotlin (for Android) or Swift/Objective-C (for iOS).
+        Familiarity with mobile development frameworks and technologies.
+        Experience with mobile app testing and debugging.Knowledge of RESTful APIs and integration.</span></p>
+      <p class="option-title">requirement : <span>Excellent communication and teamwork skills.Ability to work independently and meet project deadlines.
+        Portfolio of web applications and projects.</span></p>
+    </div>
+        <div class="apply-container">
+            <span class="apply-text">Added by : </span><span class="manager-name">raouf akkez</span>
+            <input class="btn btn-primary apply-button" routerLink="/editoffer" type="submit" value="Edit">
+            <input class="btn btn-danger another-button" type="submit" value="Delete">
+        </div>
+</div>

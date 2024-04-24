@@ -1,0 +1,40 @@
+<app-componentsagent></app-componentsagent>
+<p class="content"></p> <!-- this is important for the width of the page don't delete it -->
+<div class="welcome content">
+    <div class="welcome-label">
+        <h1 class="user">Raouf</h1>
+        <p class="desc">You can view and edit your interviews</p>
+        
+    </div>
+    <!-- Other content of the dashboard goes here -->
+</div>
+
+<div class="job-offer-box content"  >
+    <div class="job-offer-content">
+      <p> Interview ID : <span> 1 </span> </p>
+      <table>
+        <thead>
+            <tr>
+                <th>Interview date</th>
+                <th>Application ID</th>
+                <th>Job interview</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08/23/2023, 9:00 AM</td>
+                <td>61</td>
+                <td>Face to face</td>
+                <td>None</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="apply-container">
+        <span class="apply-text">Added by : </span><span class="manager-name">raouf akkez</span>
+        <input class="btn btn-primary apply-button" type="submit" routerLink="/editinterview" value="Edit">
+        <input class="btn btn-danger another-button" type="submit" value="Delete">
+        
+    </div>
+</div>

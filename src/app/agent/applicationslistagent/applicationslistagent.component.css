@@ -1,0 +1,204 @@
+.content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  /* welcome styles */
+.welcome {
+  margin-top: 20px; /* Adjust the margin based on the height of the fixed navbar */
+  padding: 20px;
+  /* Other dashboard styles */
+  }
+  
+  /* Welcome label styles */
+ 
+  .user{
+  color: #0471EF;
+  }
+  .desc{
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+/*      job offer box       */
+  .job-offer-box {
+  background-color: #f0eded;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px 40px 40px 290px; /* Add 20px left and right margin, adjust as needed */
+  padding: 20px;
+}
+.job-offer-box:hover{
+box-shadow: 0px 0px 15px 0px rgba(106, 106, 106, 0.7);
+}
+
+p.before-job-title{
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.job-title{
+  font-weight: bold; 
+  text-align: center;
+  font-size: 20px;
+  color: #03448f;
+}
+ /*  inside box  */
+.inside-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 20px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th {
+  /*border: 1px solid #ccc;*/
+  padding: 8px;
+  text-align: center; /* Align text inside cells */
+}
+
+td,tr {
+  /*border: 1px solid #ccc;*/
+  padding: 8px;
+  text-align: center; /* Align text inside cells */
+  width: 20%;
+}
+
+
+th:nth-child(2),
+td:nth-child(2) {
+  text-align: center; /* Align 'b' to the center */
+  width: 20%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  text-align: center; /* Align 'b' to the center */
+  width: 20%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  text-align: center; /* Align 'b' to the center */
+  width: 20%;
+
+}
+
+th:last-child,
+td:last-child {
+  text-align: center; /* Align 'c' to the right */
+  width: 20%;
+}
+
+
+.colored-box-red {
+  width: 60%; /* Set the width of the box */
+  margin-left: 20%;
+  background-color: red; /* Set the background color of the box */
+  color: white; /* Set the text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colored-box-green {
+  width: 60%; /* Set the width of the box */
+  margin-left: 20%;
+  background-color: green; /* Set the background color of the box */
+  color: white; /* Set the text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colored-box-yellow {
+  width: 60%; /* Set the width of the box */
+  margin-left: 20%;
+  background-color: rgb(203, 203, 34); /* Set the background color of the box */
+  color: white; /* Set the text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.apply-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+  
+}
+
+.candidate-button {
+  
+  margin-bottom: 10px;
+  margin-left: 32%;
+ 
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0471EF; /* Button background color */
+  color: #ffffff; /* Button text color */
+  cursor: pointer;
+  }
+  
+  .candidate-button:hover {
+  background-color: #76a3d3; /* Change background color on hover */
+  }
+  
+  .accept-button {
+  
+    
+    margin-left: 20px;
+    
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: green; /* Button background color */
+    color: #ffffff; /* Button text color */
+    
+    }
+    
+    .accept-button:hover {
+    background-color: rgb(112, 187, 112); /* Change background color on hover */
+    }
+
+  .refuse-button {
+  
+      
+      margin-left: 20px;
+      
+      margin-bottom: 10px;
+      padding: 10px 20px;
+      background-color: red; /* Button background color */
+      color: #ffffff; /* Button text color */
+      
+      }
+      
+      .refuse-button:hover {
+      background-color: #cf747c; /* Change background color on hover */
+      }
+  
+
+.candidate-button-only {
+  
+  margin-bottom: 10px;
+  margin-left: 45%;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0471EF; /* Button background color */
+  color: #ffffff; /* Button text color */
+  cursor: pointer;
+  }
+  
+  .candidate-button-only:hover {
+  background-color: #76a3d3; /* Change background color on hover */
+  }      
+  

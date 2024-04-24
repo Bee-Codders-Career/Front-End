@@ -1,0 +1,67 @@
+<app-componentsagent></app-componentsagent>
+<p class="content"></p> <!-- this is important for the width of the page don't delete it -->
+
+<div class="welcome content">
+    <div class="welcome-label">
+        <h1 class="user">Raouf</h1>
+        <p class="desc">This is the offers management page, please edit your job offer</p>
+        
+    </div>
+    <!-- Other content of the dashboard goes here -->
+</div>
+
+
+<div class="job-offer-box content"  >
+    <div class="job-offer-content">
+        <h3 class="mb-5 title">Edit Offer</h3>
+
+        <div class="row mb-4">
+            <div class="col">
+                <label class="form-label" for="firstName">Job Title</label>
+                <input type="text" id="firstName" class="form-control form-control-lg" value="Full-Stack Developer"/>
+            </div>
+            <div class="col">
+                <label class="form-label" for="lastName">Diploma</label>
+                <input type="text" id="lastName" class="form-control form-control-lg" value="development engineering" />
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <label class="form-label" for="status">Status</label>
+                <select id="gender" class="form-control form-control-lg" >  
+                    <option value="" class="form-control form-control-lg" disabled selected>Select Offer Status</option> <!-- Empty option -->
+                    <option value="enabled" class="form-control form-control-lg " selected>Enabled </option>
+                    <option value="disabled" class="form-control form-control-lg ">Disabled</option>
+                </select>
+            </div>
+            <div class="col">
+                <label class="form-label" for="email">Max age</label>
+                <input type="email" id="email" class="form-control form-control-lg" value="27" />
+            </div>
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="birthdate">Job mission</label>
+            <input type="text" id="mission" class="form-control form-control-lg" value="Create and maintain high-quality web applications with a focus on both front-end and back-end development."/>
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="telNumber">Experience level</label>
+            <input type="text" id="Experience" class="form-control form-control-lg" value="3 to 5 years"/>
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="birthdate">Skills</label>
+            <input type="text" id="skills" class="form-control form-control-lg" value="Proficiency in front-end technologies such as HTML, CSS, and JavaScript.Experience with back-end technologies (Node.js, Python,Java). Familiarity with database systems (MySQL, MongoDB).Knowledge of version control systems (Git).Problem-solving abilities and an analytical mindset." />
+        </div>
+        <div class="form-outline mb-4">
+            <label class="form-label" for="birthdate">Requirement</label>
+            <input type="text" id="Requirement" class="form-control form-control-lg" value="Excellent communication and teamwork skills.Ability to work independently and meet project deadlines. Portfolio of web applications and projects." />
+        </div>
+
+        <button class="btn btn-success btn-lg btn-block btn-save" type="submit">Save</button>
+        <button class="btn btn-danger btn-lg btn-block btn-cancel" type="submit">Cancel</button>
+    
+    </div>
+</div>

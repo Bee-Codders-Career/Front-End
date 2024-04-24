@@ -1,0 +1,74 @@
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+ /* welcome styles */
+.welcome {
+margin-top: 20px; /* Adjust the margin based on the height of the fixed navbar */
+padding: 20px;
+/* Other dashboard styles */
+}
+.user{
+color: #0471EF;
+}
+.desc{
+font-size: 16px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.job-offer-box {
+  background-color: #f0eded;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px 40px 50px 290px; /* Add 20px left and right margin, adjust as needed */
+  padding: 20px;
+}
+.job-offer-box:hover{
+  box-shadow: 0px 0px 15px 0px rgba(106, 106, 106, 0.7);
+}
+
+.job-offer-content p {
+  text-align:left;
+  font-size:20px;
+  padding-bottom: 30px;
+}
+.job-offer-content p span{
+  text-align:left;
+  font-weight: bold;
+  font-size:20px;
+  padding-bottom: 30px;
+}
+
+/* CSS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  
+  padding: 8px;
+  text-align: center; /* Align text inside cells */
+  width: 25%; /* Set equal width for all columns */
+ 
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  text-align: center; /* Align 'b' to the center */
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  text-align: center; /* Align 'b' to the center */
+}
+
+th:last-child,
+td:last-child {
+  text-align: center; /* Align 'c' to the right */
+}
+

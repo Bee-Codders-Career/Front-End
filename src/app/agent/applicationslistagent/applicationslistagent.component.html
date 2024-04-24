@@ -1,0 +1,115 @@
+<app-componentsagent></app-componentsagent>
+<p class="content"></p> <!-- this is important for the width of the page don't delete it -->
+
+<div class="welcome content">
+    
+    <div class="welcome-label">
+        <h1 class="user">Raouf</h1>
+        <p class="desc">You can view the candidate's details and accept or refuse their application</p>
+    </div>
+    <!-- Other content of the dashboard goes here -->
+</div>
+
+
+<div class="job-offer-box content"  >
+
+    <div class="job-offer-content">
+
+        <p class="before-job-title">applications for the job : </p>
+        <p class="job-title">Full-Stack Developer</p>
+
+        <div class="inside-box">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Application ID</th>
+                        <th>Candidate</th>
+                        <th>E-mail</th>
+                        <th>Filing date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>77</td>
+                        <td>ala balhi</td>
+                        <td>ala.balhi@gmail.com</td>
+                        <td >08/17/2023</td>
+                        <td><div class="colored-box-yellow">applications in progress</div></td>
+                    </tr>
+                </tbody>
+              </table>
+              <div class="apply-container">
+                <input class="btn btn-primary candidate-button" type="submit" value="Candidate details" routerLink="/candidatedetails">
+                <input class="btn btn-success accept-button" type="submit" value="Accept the application" routerLink="/addinterview">
+                <input class="btn btn-danger refuse-button" type="submit" value="Refuse the application">
+            </div>
+        </div>
+
+        <div class="inside-box">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Application ID</th>
+                        <th>Candidate</th>
+                        <th>E-mail</th>
+                        <th>Filing date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>61</td>
+                        <td>fakhri hammami</td>
+                        <td>fakhri.hammami@gmail.com</td>
+                        <td >08/10/2023</td>
+                        <td><div class="colored-box-green">applications accepted</div></td>
+                    </tr>
+                </tbody>
+              </table>
+              <div class="apply-container">
+                <input class="btn btn-primary candidate-button-only" type="submit" value="Candidate details">
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+<div class="job-offer-box content"  >
+
+    <div class="job-offer-content">
+
+        <p class="before-job-title">applications for the job : </p>
+        <p class="job-title">Mobile Developer</p>
+
+        <div class="inside-box">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Application ID</th>
+                        <th>Candidate</th>
+                        <th>E-mail</th>
+                        <th>Filing date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>52</td>
+                        <td>fakhri hammami</td>
+                        <td>fakhri.hammami@gmail.com</td>
+                        <td >08/17/2023</td>
+                        <td><div class="colored-box-red">applications refused</div></td>
+                    </tr>
+                </tbody>
+              </table>
+              <div class="apply-container">
+                <input class="btn btn-primary candidate-button-only" type="submit" value="Candidate details">
+            </div>
+        </div>
+    
+    </div>
+</div>

@@ -1,0 +1,179 @@
+<app-componentsadmin></app-componentsadmin>
+<p class="content"></p> <!-- this is important for the width of the page don't delete it -->
+<div class="welcome content">
+    <div class="welcome-label">
+        <h1 class="user">Welcome<span class="user"> Admin</span> </h1>
+        <p class="desc">You can manage users</p>
+        
+    </div>
+    
+    <!-- Other content of the dashboard goes here -->
+</div>
+
+
+
+
+
+
+
+<div class="job-offer-box content"  >
+    <div class="top-buttons">
+        <button class="btn btn-primary add" routerLink="/adduser"> + Add Candidate</button>
+        <button class="btn btn-secondary add" routerLink="/addmanager"> + Add HR Manager</button>
+    </div>
+    <div class="job-offer-content">
+      <p> You can view the list of users, <span>add</span> , <span>edit</span> , and <span>delete</span>  candidates or HR managers <span></span></p>
+      <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>E-mail</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>admin</td>
+                <td>admin</td>
+                <td>admin@contact.com</td>
+                <td>admin</td>
+                <td>
+                    <h4 >No action</h4>
+                </td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>fakhri</td>
+                <td>hammami</td>
+                <td>fakhri.hammami@gmail.com</td>
+                <td>candidate</td>
+                <td>
+                    <button class="btn btn-link icon" routerLink="/edituser">
+                        <i class="fas fa-pencil-alt text-primary mr-2"></i> <!-- Clickable blue modification icon with right margin -->
+                    </button>
+                    <button class="btn btn-link icon" onclick="location.href='/delete'">
+                        <i class="fas fa-trash-alt text-danger"></i> <!-- Clickable red delete icon -->
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>raouf</td>
+                <td>akkez</td>
+                <td>raouf.akkez@gmail.com</td>
+                <td>manager</td>
+                <td>
+                    <button class="btn btn-link icon" onclick="location.href='/edit'">
+                        <i class="fas fa-pencil-alt text-primary mr-2"></i> <!-- Clickable blue modification icon with right margin -->
+                    </button>
+                    <button class="btn btn-link icon" onclick="location.href='/delete'">
+                        <i class="fas fa-trash-alt text-danger"></i> <!-- Clickable red delete icon -->
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>wareth</td>
+                <td>ghribi</td>
+                <td>wareth.ghribi@gmail.com</td>
+                <td>manager</td>
+                <td>
+                    <button class="btn btn-link icon" onclick="location.href='/edit'">
+                        <i class="fas fa-pencil-alt text-primary mr-2"></i> <!-- Clickable blue modification icon with right margin -->
+                    </button>
+                    <button class="btn btn-link icon" onclick="location.href='/delete'">
+                        <i class="fas fa-trash-alt text-danger"></i> <!-- Clickable red delete icon -->
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>salma</td>
+                <td>guermazi</td>
+                <td>salma.guermazi@gmail.com</td>
+                <td>candidate</td>
+                <td>
+                    <button class="btn btn-link icon" routerLink="/edituser">
+                        <i class="fas fa-pencil-alt text-primary mr-2"></i> <!-- Clickable blue modification icon with right margin -->
+                    </button>
+                    <button class="btn btn-link icon" onclick="location.href='/delete'">
+                        <i class="fas fa-trash-alt text-danger"></i> <!-- Clickable red delete icon -->
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>raouen</td>
+                <td>mbarek</td>
+                <td>raouen.mbarek@gmail.com</td>
+                <td>candidate</td>
+                <td>
+                    <button class="btn btn-link icon" onclick="location.href='/edit'">
+                        <i class="fas fa-pencil-alt text-primary mr-2"></i> <!-- Clickable blue modification icon with right margin -->
+                    </button>
+                    <button class="btn btn-link icon" onclick="location.href='/delete'">
+                        <i class="fas fa-trash-alt text-danger"></i> <!-- Clickable red delete icon -->
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>ala</td>
+                <td>balhi</td>
+                <td>ala.balhi@gmail.com</td>
+                <td>candidate</td>
+                <td>
+                    <button class="btn btn-link icon" onclick="location.href='/edit'">
+                        <i class="fas fa-pencil-alt text-primary mr-2"></i> <!-- Clickable blue modification icon with right margin -->
+                    </button>
+                    <button class="btn btn-link icon" onclick="location.href='/delete'">
+                        <i class="fas fa-trash-alt text-danger"></i> <!-- Clickable red delete icon -->
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>helmi</td>
+                <td>khiari</td>
+                <td>helmi.khiari@gmail.com</td>
+                <td>manager</td>
+                <td>
+                    <button class="btn btn-link icon" onclick="location.href='/edit'">
+                        <i class="fas fa-pencil-alt text-primary mr-2"></i> <!-- Clickable blue modification icon with right margin -->
+                    </button>
+                    <button class="btn btn-link icon" onclick="location.href='/delete'">
+                        <i class="fas fa-trash-alt text-danger"></i> <!-- Clickable red delete icon -->
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td>hssan</td>
+                <td>maddouri</td>
+                <td>hssan.maddouri@gmail.com</td>
+                <td>manager</td>
+                <td >
+                    <button class="btn btn-link icon " onclick="location.href='/edit'">
+                        <i class="fas fa-pencil-alt text-primary mr-2"></i> <!-- Clickable blue modification icon with right margin -->
+                    </button>
+                    <button class="btn btn-link icon" onclick="location.href='/delete'">
+                        <i class="fas fa-trash-alt text-danger"></i> <!-- Clickable red delete icon -->
+                    </button>
+                </td>
+            </tr>
+        
+
+            
+        </tbody>
+      </table>
+    </div>
+</div>
+
+
+
+
+

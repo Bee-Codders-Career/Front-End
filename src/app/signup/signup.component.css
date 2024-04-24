@@ -1,0 +1,11 @@
+.text-left {
+    text-align: left;
+}
+.form-label{
+    text-align: left;
+    display: block;
+}
+.custom-bg {
+    position: relative;
+    background: url('../../assets/bg1.png') no-repeat center center/cover;
+}

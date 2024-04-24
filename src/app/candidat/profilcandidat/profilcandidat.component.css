@@ -1,0 +1,133 @@
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+ /* welcome styles */
+.welcome {
+margin-top: 20px; /* Adjust the margin based on the height of the fixed navbar */
+padding: 20px;
+/* Other dashboard styles */
+}
+.user{
+color: #0471EF;
+}
+.desc{
+font-size: 16px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.job-offer-box {
+  background-color: #f0eded;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px 40px 50px 290px; /* Add 20px left and right margin, adjust as needed */
+  padding: 20px;
+  width: 50%;
+}
+.job-offer-box:hover{
+  box-shadow: 0px 0px 15px 0px rgba(106, 106, 106, 0.7);
+}
+
+
+.job-offer-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 290px;
+}
+
+.job-offer-option {
+  background-color: #f0eded;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px 40px 50px 5px; /* Add 20px left and right margin, adjust as needed */
+  padding: 20px;
+  flex: 1;
+}
+.job-offer-option:hover{
+  box-shadow: 0px 0px 15px 0px rgba(106, 106, 106, 0.7);
+}
+
+.job-offer-content p{
+  font-weight: bold;
+  margin-left: 35%;
+  font-size: 20px;
+}
+.job-offer-content p span{
+  margin-left: 100px;
+}
+
+
+.inside-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 20px;
+}
+.inside-box p {
+  font-weight: normal;
+  margin-left: 1%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.inside-box p span{
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.icon{
+  margin-left: 370px;
+  box-shadow: 0px 0px 15px 0px rgba(106, 106, 106, 0.7);
+  
+}
+.icon:hover{
+  background-color: #fdfdfd;
+  box-shadow: 0px 0px 15px 0px rgba(106, 106, 106, 0.7);
+}
+/* CSS to style the circular profile image */
+
+.container{
+  display: flex;
+}
+
+.profile-image {
+  width: 150px; /* Set the desired width of the circular image */
+  height: 150px; /* Set the desired height of the circular image */
+  border-radius: 50%; /* Create a circular frame */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.first-desc{
+  margin-left: 100px;
+
+}
+.first-desc p {
+  font-weight: bold;
+}
+.first-desc p span{
+  font-weight: normal;
+}
+.name{
+  font-size: 25px;
+  font-weight: bold;
+  color: #0471EF;
+}
+
+
+.second-desc{
+  margin-left: 150px;
+  margin-top: 14px;
+}
+
+.second-desc p {
+  font-weight: bold;
+}
+
+.second-desc p span{
+  font-weight: normal;
+}
+.edit-btn{
+  margin-left: 50% ;
+  width: 100px;
+}

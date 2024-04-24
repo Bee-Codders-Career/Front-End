@@ -1,0 +1,85 @@
+<app-componentscandidat></app-componentscandidat>
+<p class="content"></p> <!-- this is important for the width of the page don't delete it -->
+
+<div class="welcome content">
+    <div class="welcome-label">
+        <h1 class="user">Fakhri</h1>
+        <p class="desc">This is your profile page, you can view and modify your personal information</p>
+        
+    </div>
+    <!-- Other content of the dashboard goes here -->
+</div>
+
+<div class="job-offer-box content">
+    <div class="container">
+        <!--   <input type="file" (change)="onFileSelected($event)" accept="image/*">   -->
+        <img [src]="imageUrl" alt="Profile Image" class="profile-image">
+        <div class="first-desc">
+            <p > <span class="name"> Fakhri </span><span class="name"> hammami </span> </p>
+            <p > Age :  <span> 23 </span> </p>
+            <p > E-mail : <span> fakhri.hammami@gmail.com </span> </p>
+        </div>
+        <div class="second-desc">
+            <p > Phone : <span> 50496951 </span> </p>
+            <p > Pays<span> Tunisia </span> </p>
+            <p > Governorate<span> Tunis </span> </p>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary edit-btn" routerLink="/editprofil">Edit</button>
+        
+</div>
+
+<div class="job-offer-container"> 
+    <div class="job-offer-option content">
+        <div class="job-offer-content">
+            <p>Educations  <span> <button type="button" class="btn btn-primary">+ Add</button> </span>  </p>
+            <div class="inside-box">
+                <p>Study level :  <span> 5 years </span></p>
+                <p>Diploma :  <span> engineering </span></p>
+                <p>Establishment :  <span> ESPRIT </span></p>
+                <p>Speciality :  <span> software engineering </span></p>
+                <button class="btn btn-link icon" onclick="location.href='/delete'">
+                    <i class="fas fa-trash-alt text-danger delete-btn"></i> <!-- Clickable red delete icon -->
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="job-offer-option content">
+        <div class="job-offer-content">
+            <p>Experiences <span> <button type="button" class="btn btn-primary">+ Add</button> </span>  </p>
+            <div class="inside-box">
+                <p>Job profile :  <span> IT / BackEnd / Dev </span></p>
+                <p>Duration :  <span> 6 to 12 month </span></p>
+                <p>Contract type :  <span> CDD </span></p>
+                <p>Function :  <span> Development team membre </span></p>
+                <button class="btn btn-link icon" onclick="location.href='/delete'">
+                    <i class="fas fa-trash-alt text-danger delete-btn"></i> <!-- Clickable red delete icon -->
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="job-offer-option content">
+        <div class="job-offer-content">
+            <p>Languages <span> <button type="button" class="btn btn-primary">+ Add</button> </span>  </p>
+            <div class="inside-box">
+                <p>Language :  <span> english </span></p>
+                <p>Level :  <span> business fluent </span></p>
+                <button class="btn btn-link icon" onclick="location.href='/delete'">
+                    <i class="fas fa-trash-alt text-danger delete-btn"></i> <!-- Clickable red delete icon -->
+                </button>
+            </div>
+            <div class="inside-box">
+                <p>Language :  <span> french </span></p>
+                <p>Level :  <span> business fluent </span></p>
+                <button class="btn btn-link icon" onclick="location.href='/delete'">
+                    <i class="fas fa-trash-alt text-danger delete-btn"></i> <!-- Clickable red delete icon -->
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>

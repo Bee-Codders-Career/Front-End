@@ -1,0 +1,44 @@
+<app-componentsagent></app-componentsagent>
+<p class="content"></p> <!-- this is important for the width of the page don't delete it -->
+
+<div class="welcome content">
+    <div class="welcome-label">
+        <h1 class="user">Raouf</h1>
+        <p class="desc">This is the interviews management page, please edit the interview</p>
+        
+    </div>
+    <!-- Other content of the dashboard goes here -->
+</div>
+
+<div class="job-offer-box content"  >
+    <div class="job-offer-content">
+        <h3 class="mb-5 title">Edit Interview</h3>
+        <p > <span class="desctitle"> candidate name : </span><span class="descbox"> fakhri </span><span class="descbox"> hammami </span> </p>
+        <p > <span class="desctitle"> candidate e-mail : </span><span class="descbox"> fakhri.hammami@gmail.com </span> </p>
+        <p > <span class="desctitle"> candidate phone : </span><span class="descbox"> 50496951 </span> </p>
+        <div class="form-outline mb-4">
+            <label class="form-label" for="birthdate">Interview Date</label>
+            <input type="datetime-local" id="interviewdate" class="form-control form-control-lg" value="08/23/2023 09:00 AM"/>
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="gender">Job interview</label>
+            <select id="gender" class="form-control form-control-lg" >  
+                <option value="" class="form-control form-control-lg" disabled selected>Select Job Interview</option> <!-- Empty option -->
+                <option value="male" class="form-control form-control-lg" selected>Face To Face </option>
+                <option value="female" class="form-control form-control-lg">Online</option>
+            </select>
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="birthdate">Comment : </label>
+            <label class="form-label" for="birthdate">If the interview is conducted online, please insert the meeting link here. </label>
+            <input type="text" id="mission" class="form-control form-control-lg"  />
+        </div>
+
+        <button class="btn btn-success btn-lg btn-block btn-save" type="submit">Save</button>
+        <button class="btn btn-danger btn-lg btn-block btn-cancel" type="submit">Cancel</button>
+
+        
+    </div>
+</div>

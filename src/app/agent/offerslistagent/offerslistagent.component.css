@@ -1,0 +1,177 @@
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+ /* welcome styles */
+.welcome {
+margin-top: 20px; /* Adjust the margin based on the height of the fixed navbar */
+padding: 20px;
+/* Other dashboard styles */
+}
+
+/* Welcome label styles */
+
+.user{
+color: #0471EF;
+}
+.desc{
+font-size: 16px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.add{
+  margin-left: 1300px;
+  width: 200px;
+  background-color: #0471EF;
+}
+.add:hover{
+  box-shadow: 0px 0px 15px 0px rgba(106, 106, 106, 0.7);
+  background-color: #9a9797;
+}
+
+
+
+.job-offer-box {
+  background-color: #f0eded;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px 40px 20px 290px; /* Add 20px left and right margin, adjust as needed */
+  padding: 20px;
+}
+.job-offer-box:hover{
+box-shadow: 0px 0px 15px 0px rgba(106, 106, 106, 0.7);
+}
+
+
+.job-offer-content h2{
+  text-align: center;
+  font-size:25px;
+  padding-bottom: 30px;
+
+  /* Additional styles for job offer content */
+}
+p.option-title {
+  font-weight: bold; 
+
+  
+}
+p.option-title span {
+font-weight: normal;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th {
+  
+  padding: 8px;
+  text-align: center; /* Align text inside cells */
+}
+
+td,tr {
+  
+  padding: 8px;
+  text-align: center; /* Align text inside cells */
+  width: 20%;
+}
+
+
+th:nth-child(2),
+td:nth-child(2) {
+  text-align: center; /* Align 'b' to the center */
+  width: 20%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  text-align: center; /* Align 'b' to the center */
+  width: 20%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  text-align: center; /* Align 'b' to the center */
+  width: 20%;
+
+}
+
+th:last-child,
+td:last-child {
+  text-align: center; /* Align 'c' to the right */
+  width: 20%;
+}
+
+
+.colored-box-red {
+  width: 35%; /* Set the width of the box */
+  margin-left: 33%;
+  background-color: red; /* Set the background color of the box */
+  color: white; /* Set the text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colored-box-green {
+  width: 35%; /* Set the width of the box */
+  margin-left: 33%;
+  background-color: green; /* Set the background color of the box */
+  color: white; /* Set the text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply-button {
+width: 100px;
+margin-bottom: 10px;
+margin-left: 70%;
+margin-top: 20px;
+margin-bottom: 10px;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: #0471EF; /* Button background color */
+color: #ffffff; /* Button text color */
+cursor: pointer;
+}
+
+.apply-button:hover {
+background-color: #478ad7; /* Change background color on hover */
+}
+
+.another-button {
+
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: red; /* Button background color */
+  color: #ffffff; /* Button text color */
+  
+  }
+  
+  .another-button:hover {
+  background-color: #eb7881; /* Change background color on hover */
+  }
+
+.apply-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.apply-text {
+  margin-right: 10px; /* Add space between the text and the button */
+}
+.manager-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
